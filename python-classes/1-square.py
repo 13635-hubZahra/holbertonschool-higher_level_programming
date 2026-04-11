@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-"""Square klasınıemsil eden  modul"""
+"""Square klasi ucun modul senedlesdirilmesi"""
 
 
 class Square:
-    """Kvadratı emsil eden klas"""
+    """Kvadratı temsil eden klas"""
 
     def __init__(self, size):
-        """Kvadratı ilkin eyerlerle yaradir
+        """Kvadratı ilkin deyerlerle yaradir
 
         Args:
-            size (int): Kvadratınterefinin ölç�.
+            size: Kvadratin terefinin olcusu
         """
         self.__size = size
