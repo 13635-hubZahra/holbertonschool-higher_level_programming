@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Square klası üçün modul"""
+"""Necesen"""
+
+
 class Square:
-    """Kvadratı təmsil edən boş bir klas"""
+    """necesen"""
     pass
