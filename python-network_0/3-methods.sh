@@ -1,3 +1,3 @@
 #!/bin/bash
-#cURL only methods
-curl -si -X OPTIONS "$1"
+# cURL only methods
+curl -sI -X OPTIONS "$1" | grep "Allow" | cut -d' ' -f2-
