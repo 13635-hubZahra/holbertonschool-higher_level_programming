@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-that takes in a URL, sends a request to the URL 
-and displays the body of the response.
+Takes in a URL, sends a request to the URL and displays
+the body of the response (decoded in utf-8).
 """
 import sys
 import requests
